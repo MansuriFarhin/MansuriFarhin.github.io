@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Portfolio " />
+  <meta name="keywords" content="Embedded Software Engineer | Firmware Engineer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farhin Mansuri | Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+
+  <!-- GOOGLE AND AWESOME FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://kit.fontawesome.com/d9b8a6c327.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- SCROLL DOTS NAVIGATION -->
+<div class="scroll-dots">
+  <a href="#hero" class="dot" data-target="hero"></a>
+  <a href="#education" class="dot" data-target="education"></a>
+  <a href="#projects" class="dot" data-target="projects"></a>
+  <a href="#experience" class="dot" data-target="experience"></a>
+  <a href="#skills" class="dot" data-target="skills"></a>
+  <a href="#contact" class="dot" data-target="contact"></a>
+</div>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      
+    <div class="nav-left">
+      <img src="Assets/Farhin Mansuri Logo.png" alt="Logo" class="nav-logo">
+    </div>
+
+      <!-- Burger Icon settings -->
+      <div class="burger-menu">
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- Navigation tabs -->
+      <div class="nav-right">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ABOUT ME SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Farhin Mansuri </h2>
+        <!-- <h3>Hi, There! </h3> -->
+        <h3>Embedded Software | Firmware | Robotics</h3>
+          <p>
+            I’m an engineer focused on embedded software, firmware, and robotics, working close to the hardware to build reliable, efficient systems. 
+            I develop low-level software that brings together sensors, actuators, wireless communication, and IoT technologies to build intelligent, 
+            connected embedded and robotic systems for real-world use.
+          </p>
+      </div>
+      <div class="hero-image">
+        <img src="Assets/Profile Photo.jpeg" alt="Fairy" />
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider" />
+
+  
+  <!-- EDUCATION  -->
+  <section id="education" class="education-section">
+  <div class="section-header">
+    <h2>Education</h2>
+  </div>
+
+  <div class="education-timeline">
+    <!-- Card 1 - Masters -->
+    <div class="education-item">
+      <div class="education-card">
+        <div class="education-header">
+          <img src="Assets/UCI.png" alt="University Logo" class="university-logo" />
+          <h3>University of California, Irvine</h3>
+        </div>
+        <p><strong>Masters in Embedded &amp; Cyber Physical Systems</strong></p>
+        <span class="education-year"> September 2024 - September 2025</span>
+        <p>Coursework: Embedded Systems and software, Wireless Sensor and Acuator Networks, Internet of things, Machine Learning.</p>
+        <p class="education-extra">
+          Developed expertise in embedded system and software,  wireless sensors, and real-time operating systems (RTOS), Internet of thing (IOT), Robot operating system(ROS).
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 2 - Bachelors -->
+    <div class="education-item">
+      <div class="education-card">
+        <div class="education-header">
+          <img src="Assets/GTU.png" alt="GTU Logo" class="university-logo" />
+          <h3>Gujarat Technological University, India</h3>
+        </div>
+        <p><strong>Bachelors of Engineering in Electronics &amp; Communication</strong></p>
+        <span class="education-year">June 2016 - June 2020</span>
+        <p>Coursework: Digital Electronics, wireless communications, Microcontroller and interfacing.</p>
+        <p class="education-extra">
+          Established a strong foundation in digital electronics, computer networks, wireless communication, and microcontroller programming.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="section-divider" />
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section">
+  <div class="section-header">
+    <h2>Projects</h2>
+  </div>
+
+  <div class="pro-grid">
+
+    <!-- Card 1 (GitHub + Website) -->
+    <div class="pro-card">
+      <h4>Autonomous Rover Navigation</h4>
+
+      <div class="project-links">
+        <a href="https://github.com/Autonomous-Rover-Navigation-2025" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+
+        <a href="https://rover-autonomous-navigation-site.vercel.app" target="_blank">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Website
+        </a>
+      </div>
+
+      <ul>
+        <li>Designed a ROS2-based autonomous navigation pipeline using LiDAR and depth sensing Camera, integrating VSLAM, SLAM Toolbox, and AMCL for robust localization and mapping.</li>
+        <li>Modeled the rover using URDF, visualized the full stack in RViz, and deployed Nav2 for autonomous path planning and navigation with real-time 3D reconstruction via NvBlox.</li>
+        <li>Containerized ROS2 nodes with Docker and applied sensor fusion techniques to improve localization accuracy under noisy conditions, including an LLM-based voice command interface.</li>
+      </ul>
+
+      <div class="skills-list">
+        <span class="skill-item">ROS2</span>
+        <span class="skill-item">Linux</span>
+        <span class="skill-item">Python</span>
+        <span class="skill-item">Docker</span>
+        <span class="skill-item">LiDAR</span>
+        <span class="skill-item">SLAM</span>
+        <span class="skill-item">Nav2</span>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="pro-card">
+      <h4>Recommendation System</h4>
+
+      <div class="project-links">
+        <a href="https://github.com/MansuriFarhin/Recommendation-System" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <ul>
+      <li>Developed a collaborative filtering movie recommendation system using the MovieLens 25M dataset, utilizing user–movie rating patterns to generate personalized recommendations.</li>
+      <li>Applied k-Nearest Neighbors (k-NN) with cosine similarity for both item–item and user–user similarity, employing weighted neighbor ratings for accurate recommendations.</li>
+      <li>Processed and analyzed large-scale rating data with Python, pandas, NumPy, and scikit-learn to deliver efficient Top-N movie and user-specific recommendations.</li>
+      </ul>
+
+      <div class="skills-list">
+        <span class="skill-item">Python</span>
+        <span class="skill-item">Pandas</span>
+        <span class="skill-item">NumPy</span>
+        <span class="skill-item">Scikit-learn</span>
+        <span class="skill-item">k-NN</span>
+      </div>
+    </div>
+
+
+    <!-- Card 3 -->
+    <div class="pro-card">
+      <h4>Swarm of Sensors – IoT Data Collection</h4>
+
+      <div class="project-links">
+        <a href="https://github.com/MansuriFarhin/Light-Sensor-Swarm" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <ul>
+        <li>Designed a distributed sensor network of ESP8266 devices communicating via UDP for ambient light monitoring using photoresistors.</li>
+        <li>Created a master-selection protocol based on light levels; the highest reading becomes Master and sends data to a central Raspberry Pi.</li>
+        <li>Implemented PWM-controlled LEDs for light indication and used dashboard for visual representation.</li>
+      </ul>
+
+      <div class="skills-list">
+        <span class="skill-item">ESP8266</span>
+        <span class="skill-item">Raspberry Pi</span>
+        <span class="skill-item">Python</span>
+        <span class="skill-item">C++</span>
+        <span class="skill-item">UDP</span>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="pro-card">
+      <h4>ROS PID Controller</h4>
+
+      <div class="project-links">
+        <a href="https://github.com/MansuriFarhin/Ros-PID-control" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <ul>
+        <li>Developed a PID-based motion controller in ROS using Python to navigate a differential drive robot to a user-defined target pose in the Gazebo simulation environment.</li>
+        <li>Implemented odometry feedback and velocity command publishing with support for both sequential and simultaneous linear–angular control modes.</li>
+        <li>Tuned independent PID gains for linear and angular motion to achieve stable convergence, smooth trajectories, and accurate pose tracking on TurtleBot3 Waffle Pi.</li>
+      </ul>
+
+      <div class="skills-list">
+        <span class="skill-item">ROS</span>
+        <span class="skill-item">Python</span>
+        <span class="skill-item">PID Control</span>
+        <span class="skill-item">Gazebo</span>
+        <span class="skill-item">TurtleBot3</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider" />
+
+   <section id="experience" class="experience-section">
+  <div class="section-header">
+    <h2>Experience</h2>
+  </div>
+
+<div class="experience-item">
+  <div class="exp-card">
+    <div class="exp-header">
+      <!-- Row: logo + company name -->
+      <div class="exp-company">
+        <img src="Assets/APCT.jpeg" alt=" Logo" class="company-logo" />
+        <h3>Advanced PCB</h3>
+      </div>
+      <!-- Below that: Job title -->
+      <h4>Quality Engineer</h4>
+    </div>
+
+    <div class="exp-year">September 2021 – July 2024</div>
+    <ul>
+    <li>Collaborated with design engineers to review PCB schematics and layouts for manufacturability and testability.</li>
+    <li>Conducted detailed failure analysis and implemented corrective actions, reducing PCB defects by 25% and improving overall product yield.</li>
+    <li>Wrote technical documentation and mentored test technicians, establishing standardized testing practices and improving workflow efficiency.</li>
+  </ul>
+  </div>
+</div>
+
+<!-- Card 2 -->
+  <div class="experience-item">
+    <div class="exp-card">
+      <div class="exp-header">
+        <h3>Intern – Embedded Engineer</h3>
+        <div class="exp-company">
+          <img src="Assets/IMS.jpeg" alt=" Logo" class="company-logo" />
+          <h4>Integrated Medical Sensors</h4>
+        </div>
+      </div>
+      <div class="exp-year">July 2025 – September 2025</div>
+      <ul>
+      <li>Developed embedded firmware in C on Nordic nRF52 (ARM Cortex-M4) for glucose monitoring sensor, ensuring reliable data acquisition and communication.</li>
+      <li>Implemented and debugged UART drivers with firmware protection mechanisms to improve system integrity and robustness.</li>
+      <li>Interfaced Cortex-M3–based Analog Devices evaluation boards using JTAG debugging, and built Python tools with PySerial and Matplotlib for UART testing and signal visualization.</li>
+    </ul>
+    </div>
+  </div> 
+
+<!-- Card 3 -->
+  <div class="experience-item">
+    <div class="exp-card">
+      <div class="exp-header">
+        <h3>Intern - Computer Vision</h3>
+        <div class="exp-company">
+          <img src="Assets/Aurelius.png" alt="Logo" class="company-logo" />
+          <h4>Aurelius Industries LLC</h4>
+        </div>
+      </div>
+      <div class="exp-year">June 2025 – September 2025</div>
+      <ul>
+      <li>Developed a high-speed UDP socket framework in Python on NVIDIA Orin Nano for drone edge devices, enabling low-latency and reliable real-time video streaming.</li>
+      <li>Built an end-to-end computer vision pipeline for object detection, semantic segmentation, depth estimation, and 3D point cloud and mesh generation using Open3D.</li>
+      <li>Supported SLAM pipelines by integrating 3D perception outputs, improving localization and mapping accuracy for autonomous aerial systems.</li>
+    </ul>
+    </div>
+  </div> 
+
+</section>
+<hr class="section-divider" />
+
+
+ <!-- SKILLS SECTION -->
+  <section id="skills" class="skills-section">
+    <div class="section-header">
+      <h2>Skills & Knowledge</h2>
+      <!-- <p>A snapshot of my most relevant skill sets</p> -->
+    </div>
+    <div class="skills-container">
+      <!-- Card 1 -->
+      <div class="skills-card">
+        <h3>Software & Machine learning </h3>
+        <div class="skills-list">
+          
+          <span class="skill-item">C</span>
+          <span class="skill-item">C++</span>
+          <span class="skill-item">Python</span>
+          <span class="skill-item">ROS</span>
+          <span class="skill-item">Linux</span>
+          <span class="skill-item">Docker</span>
+          <span class="skill-item">Github</span>
+          <span class="skill-item"> I2C</span>
+          <span class="skill-item"> SPI</span>
+          <span class="skill-item"> UART</span>
+          <span class="skill-item"> UDP </span>
+          <span class="skill-item">NumPy</span>
+          <span class="skill-item">Pandas</span>
+          <span class="skill-item">Matplotlib</span>
+          <span class="skill-item">Scikit-learn</span>
+
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="skills-card">
+        <h3> Embedded systems &amp; Hardware </h3>
+        <div class="skills-list">
+          <span class="skill-item">ESP8266</span>
+          <span class="skill-item">Raspberry Pi</span>
+          <span class="skill-item">Arduino </span>
+          <span class="skill-item">Nvidia Jetson Xavier </span>
+          <span class="skill-item">Multimeter </span>
+          <span class="skill-item">Oscilloscope </span>
+          <span class="skill-item">Microscope </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider" />
+
+ <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="section-header">
+      <h2>Contact Me</h2>
+      <p>Feel free to connect with me via email, LinkedIn, or GitHub.</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-icons">
+        <a href="mailto:mansurifarhin2019@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>mansurifarhin2019@gmail.com</span>
+        </a>
+        <a href="https://github.com/MansuriFarhin" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <span>MansuriFarhin</span>
+        </a>
+        <a href="https://www.linkedin.com/in/farhin01" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Farhin Mansuri</span>
+        </a>
+      </div>
+      
+  <hr class="section-divider" />
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; <span id="currentYear"></span> Farhin Mansuri. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle mobile menu open/close
+    const burgerMenu = document.querySelector('.burger-menu');
+    const burgerIcon = document.querySelector('.burger-icon');
+    const navRight = document.querySelector('.nav-right');
+
+    burgerMenu.addEventListener('click', () => {
+      navRight.classList.toggle('open');
+    });
+
+    // Close menu on link click
+    const navLinks = document.querySelectorAll('.nav-right a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navRight.classList.remove('open');
+      });
+    });
+
+    // Update year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Copy text function
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        const feedback = document.createElement('div');
+        feedback.textContent = 'Copied!';
+        feedback.style.position = 'fixed';
+        feedback.style.bottom = '20px';
+        feedback.style.left = '50%';
+        feedback.style.transform = 'translateX(-50%)';
+        feedback.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+        feedback.style.color = '#2C3E50';
+        feedback.style.padding = '0.5rem 1rem';
+        feedback.style.borderRadius = '5px';
+        feedback.style.fontSize = '0.9rem';
+        document.body.appendChild(feedback);
+        
+        setTimeout(() => {
+          feedback.remove();
+        }, 2000);
+      });
+    }
+
+     /* ---------------------------------------------
+     SCROLL SPY FOR DOTS
+  --------------------------------------------- */
+  const sections = document.querySelectorAll("section");
+  const dots = document.querySelectorAll(".scroll-dots .dot");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        const matchingDot = document.querySelector(`.dot[data-target="${id}"]`);
+
+        if (entry.isIntersecting) {
+          dots.forEach(dot => dot.classList.remove("active"));
+          if (matchingDot) matchingDot.classList.add("active");
+        }
+      });
+    },
+    { threshold: 0.55 }
+  );
+
+  sections.forEach(sec => observer.observe(sec));
+  </script>
+
+
+</body>
+</html>
